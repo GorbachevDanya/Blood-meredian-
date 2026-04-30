@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #1a1411;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2d241f;
+}
+
+#all-content {
+    width: 642px;
+    margin: 18px auto;
+    background: #f4ece1;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.06);
+}
+
+header {
+    position: relative;
+    overflow: hidden;
+    min-height: 103px;
+    padding: 14px 20px 10px 18px;
+    background: linear-gradient(180deg, #241512 0%, #1a110f 100%);
+    border-bottom: 2px solid #d0b08b;
+    color: #fff4e8;
+}
+
+header h1 {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    font-family: "Arial Black", Arial, Helvetica, sans-serif;
+    font-size: 54px;
+    line-height: 0.95;
+    font-weight: 900;
+    letter-spacing: -1.4px;
+    color: #f7e9d5;
+}
+
+nav {
+    position: relative;
+    z-index: 1;
+    margin-top: 12px;
+}
+
+nav ul {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #f7e9d5;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    align-items: stretch;
+    background: #f4ece1;
+}
+
+#about-author {
+    width: 206px;
+    background: linear-gradient(180deg, #3d2017 0%, #5a2b1d 100%);
+    color: #f7e9d5;
+    min-height: 770px;
+}
+
+#about-author .portrait {
+    background: #c9b28f;
+    padding: 10px 11px 0;
+    height: 274px;
+    overflow: hidden;
+}
+
+#about-author .portrait img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: sepia(95%) contrast(0.9) saturate(0.55) brightness(0.92);
+    border-radius: 2px;
+}
+
+#about-author .text-block {
+    padding: 16px 20px 0 24px;
+}
+
+#about-author .author-name-block {
+    padding-top: 18px;
+}
+
+#about-author h2 {
+    margin: 0 0 8px;
+    color: #f7e9d5;
+    font-size: 23px;
+    line-height: 1.0;
+    font-weight: 800;
+}
+
+#true-author-name {
+    margin: 0;
+    font-size: 11px;
+    font-style: italic;
+    color: #e9d4bd;
+}
+
+#about-author h3 {
+    margin: 0 0 4px;
+    font-size: 16px;
+    line-height: 1.1;
+    font-weight: 400;
+    color: #f7e9d5;
+}
+
+.years {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.1;
+    color: #f7e9d5;
+}
+
+.author-description {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: #f0ddc8;
+}
+
+.works-list {
+    margin: 0;
+    padding-left: 18px;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #f0ddc8;
+}
+
+.works-list li {
+    margin: 0;
+}
+
+#about-work {
+    flex: 1;
+    background: #f4ece1;
+    padding: 22px 30px 0 38px;
+}
+
+.content-text-block {
+    margin-bottom: 26px;
+}
+
+#about-work h2 {
+    margin: 0 0 10px;
+    color: #8e2f22;
+    font-size: 24px;
+    line-height: 1.05;
+    font-weight: 800;
+}
+
+#work-year .years {
+    font-size: 18px;
+    color: #2d241f;
+}
+
+.main-list {
+    margin: 0;
+    padding-left: 18px;
+    font-size: 12.6px;
+    line-height: 1.5;
+    color: #2d241f;
+}
+
+.main-list li {
+    margin-bottom: 2px;
+}
+
+#plot .text-block {
+    margin-bottom: 14px;
+}
+
+#plot h3 {
+    margin: 0 0 6px;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #5f2a1e;
+}
+
+#plot p {
+    margin: 0;
+    font-size: 12.2px;
+    line-height: 1.42;
+    color: #2d241f;
+    text-align: left;
+}
+
+#quote-text {
+    margin: 0;
+    padding-left: 13px;
+    border-left: 3px solid #b17a3d;
+    font-size: 12.3px;
+    line-height: 1.5;
+    font-style: italic;
+    color: #2d241f;
+}
+
+#quote-description {
+    width: 84%;
+    margin: 8px 0 0 62px;
+    font-size: 12.5px;
+    line-height: 1.45;
+    color: #5f2a1e;
+    text-align: center;
+}
+
+#problems p {
+    margin: 0;
+    font-size: 12.8px;
+    line-height: 1.45;
+    color: #2d241f;
+}
+
+footer {
+    background: #090707;
+    color: #f4e6d8;
+    padding: 11px 12px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 11px;
+    line-height: 1.2;
+}
